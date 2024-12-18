@@ -43,22 +43,22 @@ super + alt + c
 
 # ranger screenshots
 shift + super + i
-    kitty -e ranger /home/zodd/Pictures/Screenshots 
+    kitty -e ranger /home/goblinking/Pictures/Screenshots 
 
 # ranger downloads
 shift + super + d
-    kitty -e ranger /home/zodd/Downloads
+    kitty -e ranger /home/goblinking/Downloads
 
 # ranger wallpapers
 shift + super + w
-    kitty -e ranger /home/zodd/.wallpapers
+    kitty -e ranger /home/goblinking/.wallpapers
 
 # ranger programming
 shift + super + p
-    kitty -e ranger /home/zodd/Dropbox/Programming
+    kitty -e ranger /home/goblinking/Dropbox/Programming
 
 # nitrogen
-ctrl + alt + w
+super + n
     bspc rule -a \* -o state=floating && nitrogen
 
 # ranger
@@ -66,20 +66,29 @@ shift + super + r
     kitty -e ranger
 
 # browser
-ctrl + alt + f
+super + f
     firefox file:///home/$USER/.config/startpage/index.html
 
 # idea
-ctrl + alt + i
-    /home/zodd/software/idea-IC-201.7846.76/bin/idea.sh
+#ctrl + alt + i
+#    /home/zodd/software/idea-IC-201.7846.76/bin/idea.sh
 
 # code
 ctrl + alt + c
-    code
+    bspc desktop -f '^3' --follow ; code
    
 # spotify
-#ctrl + alt + s
-#    bspc desktop -f '^8' --follow ; spotify
+ctrl + alt + s
+    bspc desktop -f '^8' --follow ; spotify
+
+# discord
+ctrl + alt + d
+	bspc desktop -f '^7' --follow ; discord
+
+# telegram
+ctrl + alt + t
+	bspc desktop -f '^6' --follow ; telegram-desktop
+
 
 
 # --------- SCREENSHOTS ---------

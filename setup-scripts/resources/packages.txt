@@ -178,3 +178,6 @@ libxcb1
 libxcb1
 xcb-proto
 xcb
+discord
+spotify
+telegram-desktop
