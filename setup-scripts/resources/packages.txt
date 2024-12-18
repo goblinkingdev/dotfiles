@@ -181,3 +181,4 @@ xcb
 discord
 spotify
 telegram-desktop
+python-dbus
